@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "playfair-display";
+    src: url(playfair-display/PlayfairDisplay-Black.ttf);
+ }
+
+.Spider-man {
+    color: red;
+    font-family: "PlayfairDisplay-BlackItalic";
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.HorizonForbiddenWest {
+    color: blue;
+    font-family: "PlayfairDisplay-BlackItalic";
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.Demon {
+    color: brown;
+    font-family: "PlayfairDisplay-BlackItalic";
+    padding: 8px;
+    border: 1px solid black;
+}
+
+h1 {
+    color: green;
+    font-family: "PlayfairDisplay-BlackItalic";
+    padding: 25px;
+}
+
+.link {
+    color: blueviolet;
+    font-family: "PlayfairDisplay-BlackItalic";
+    padding: 25px;
+}
+
+.Giochi{
+    color: blue;
+    font-family: "PlayfairDisplay-BlackItalic";
+    padding: 25px;
+}
+
+.info {
+    color: orange;
+    font-family: "PlayfairDisplay-BlackItalic";
+    padding: 25px;
+}
+
+body {
+    background-image: url("https://media.istockphoto.com/id/1407650510/it/vettoriale/cerchio-e-linea-tratteggiata-materiale-di-sfondo-geometrico.jpg?s=2048x2048&w=is&k=20&c=1Mg_SpDP0QOrvHBQS7iKQ9sen-jNHkCkX-TKEzrwD-U=")
+}
+
