@@ -1,0 +1,28 @@
+.Eventi {
+    font-family: fantasy;
+    color: black;
+}
+
+.Marshmello {
+    float: right;
+}
+
+.ImmagineCreatore{
+    float: right;
+}
+
+.EpicGames {
+    float: right;
+}
+
+.BattleRoyale {
+    float: right;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+ul {
+    display: block;
+}
