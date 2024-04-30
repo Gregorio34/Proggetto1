@@ -1,5 +1,5 @@
 .Eventi {
-    font-family: fantasy;
+    font-family: "Jersey 15";
     color: black;
 }
 
@@ -39,9 +39,4 @@ body{
     text-decoration: none;
     padding: 15px;
     display: block;
-}
-
-@font-face {
-    font-family: fantasy;
-    src: url(Eventi\ e\ Collaborazioni.html);
 }
