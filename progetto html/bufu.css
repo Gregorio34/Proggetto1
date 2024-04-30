@@ -5,24 +5,43 @@
 
 .Marshmello {
     float: right;
+    border: 5px solid black;
 }
 
 .ImmagineCreatore{
     float: right;
+     border: 5px solid black;
 }
 
 .EpicGames {
     float: right;
+    border: 5px solid black;
 }
 
 .BattleRoyale {
     float: right;
+    border: 5px solid black;
 }
 
 body{
     background-color: whitesmoke;
 }
 
-ul {
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
     display: block;
+}
+
+@font-face {
+    font-family: fantasy;
+    src: url(Eventi\ e\ Collaborazioni.html);
 }
