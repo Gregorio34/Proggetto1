@@ -1,8 +1,19 @@
 .Eventi {
-    font-family: "Jersey 15";
-    color: black;
+    font-family: cursive;
 }
 
+.box7 {
+    font-family: monospace;
+}
+
+.box3 {
+    font-family: "Sedgwick Ave Display";
+    font-size: 35px;
+}
+
+.ComeGiocare{
+    font-family: "Press Start 2P";
+}
 .Marshmello {
     float: right;
     border: 5px solid black;
@@ -23,10 +34,6 @@
     border: 5px solid black;
 }
 
-body{
-    background-color: whitesmoke;
-}
-
 .navbar ul{
     list-style-type: none;
     background-color: hsl(0, 0%, 25%);
@@ -39,4 +46,37 @@ body{
     text-decoration: none;
     padding: 15px;
     display: block;
+}
+
+.box {
+    height: 250px;
+    animation-name: MySlide;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes MySlide {
+    from{margin-left: 1100px;}
+    to{margin-left: 624px;}
+}
+
+.ConteniteoreFooter {
+    padding: 25px;
+}
+
+.Social {
+    text-align: center;
+}
+
+.Social a {
+    padding: 10px;
+    font-size: 2em;
+}
+
+.informazioni {
+    font-family: cursive;
+}
+
+.modalita {
+    font-family: cursive;
 }
