@@ -34,30 +34,18 @@
     border: 5px solid black;
 }
 
-.navbar ul{
-    list-style-type: none;
-    background-color: hsl(0, 0%, 25%);
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-}
-.navbar a{
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-}
-
 .box {
     height: 250px;
     animation-name: MySlide;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: initial;
+    margin-top: 20px;
+    margin-left: 550px;
 }
 
 @keyframes MySlide {
-    from{margin-left: 1100px;}
-    to{margin-left: 624px;}
+    from{margin-left: 100px;}
+    to{margin-left: 550px;}
 }
 
 .ConteniteoreFooter {
@@ -66,17 +54,50 @@
 
 .Social {
     text-align: center;
+    background-color: black;
+    padding: 100px;
 }
 
 .Social a {
     padding: 10px;
     font-size: 2em;
-}
-
-.informazioni {
-    font-family: cursive;
+    border: 15px solid white;
 }
 
 .modalita {
     font-family: cursive;
+}
+
+.box9 {
+    background-image: url("https://soccergods.co.uk/wp-content/uploads/fortnite-background-scaled.jpg");
+    background-size: cover;
+}
+
+.flex-container {
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-container > div {
+    background-color: yellow;
+    margin: 10px;
+    padding: 18px;
+    font-family: "Poetsen One";
+    color: black;
+    border-radius: 25px;
+}
+
+.informazioni {
+    font-family: "Poetsen One";
+    text-align: center;
+    padding: 5px;
+}
+
+.DescrizioneFooter {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Briem Hand";
 }
