@@ -24,11 +24,6 @@
      border: 5px solid black;
 }
 
-.EpicGames {
-    float: right;
-    border: 5px solid black;
-}
-
 .BattleRoyale {
     float: right;
     border: 5px solid black;
@@ -37,31 +32,30 @@
 .box {
     height: 250px;
     animation-name: MySlide;
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-iteration-count: initial;
-    margin-top: 20px;
-    margin-left: 550px;
+    margin-left: 34%;
 }
 
 @keyframes MySlide {
-    from{margin-left: 100px;}
-    to{margin-left: 550px;}
+    from{margin-left: 5px;}
+    to{margin-left: 34%;}
 }
 
 .ConteniteoreFooter {
     padding: 25px;
+    text-align: center;
 }
 
 .Social {
-    text-align: center;
-    background-color: black;
     padding: 100px;
 }
 
 .Social a {
     padding: 10px;
     font-size: 2em;
-    border: 15px solid white;
+    border-radius: 125px;
+    background-color: white;
 }
 
 .modalita {
@@ -95,9 +89,23 @@
     padding: 5px;
 }
 
-.DescrizioneFooter {
-    color: white;
-    text-align: center;
-    font-size: 35px;
-    font-family: "Briem Hand";
+.box99 {
+    background-image: url("https://img.freepik.com/free-vector/white-abstract-background_23-2148810353.jpg?w=996&t=st=1714981942~exp=1714982542~hmac=190daba74b788a1cdbde936ee5a32f690385c5bdeeea32157cebd5925c2a4bb8");
+}
+
+.box5 {
+    background-image: url("https://img.freepik.com/free-vector/gradient-dynamic-blue-lines-background_23-2148995756.jpg?w=996&t=st=1714982900~exp=1714983500~hmac=9614cc0e60ed268fae30007b265a9a9b9b462bd39c020b07d083878e3a9fe3c9");
+}
+
+.box4 {
+    background-image: url("https://img.freepik.com/free-vector/gradient-wavy-background_23-2149123391.jpg?w=996&t=st=1714983028~exp=1714983628~hmac=cbc42f238138b44cde8ccbee8b0bdcbe0ada0db70f07245d76ac21367ca44979");
+}
+
+.box2 {
+    background-image: url("https://wallpapercave.com/wp/wp4390828.jpg");
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
 }
