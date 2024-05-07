@@ -1,27 +1,27 @@
 .Eventi {
     font-family: cursive;
+    text-align: center;
+    color: #030301;
 }
 
 .box7 {
-    font-family: monospace;
+    font-family: "Sedgwick Ave Display";
+    text-align: center;
 }
 
 .box3 {
     font-family: "Sedgwick Ave Display";
     font-size: 35px;
+    text-align: center;
 }
 
 .ComeGiocare{
     font-family: "Press Start 2P";
+    text-align: center;
 }
 .Marshmello {
     float: right;
     border: 5px solid black;
-}
-
-.ImmagineCreatore{
-    float: right;
-     border: 5px solid black;
 }
 
 .BattleRoyale {
@@ -32,34 +32,35 @@
 .box {
     height: 250px;
     animation-name: MySlide;
-    animation-duration: 1s;
+    animation-duration: 3s;
     animation-iteration-count: initial;
     margin-left: 34%;
 }
 
 @keyframes MySlide {
-    from{margin-left: 5px;}
+    from{margin-left: 24px;}
     to{margin-left: 34%;}
 }
 
-.ConteniteoreFooter {
-    padding: 25px;
-    text-align: center;
-}
+footer {
+    position: absolute;
+   color: tomato;
+   left: 0%;
+   align-items: center;
+   font-size: 35px;
+   background-color: #030301;
 
-.Social {
-    padding: 100px;
 }
 
 .Social a {
-    padding: 10px;
-    font-size: 2em;
-    border-radius: 125px;
-    background-color: white;
+    color: white;
+    padding: 15px;
+    border-radius: 100%;
 }
 
 .modalita {
     font-family: cursive;
+    text-align: center;
 }
 
 .box9 {
@@ -74,13 +75,15 @@
     align-items: center;
 }
 
-.flex-container > div {
+.flex-container a {
     background-color: yellow;
     margin: 10px;
     padding: 18px;
     font-family: "Poetsen One";
     color: black;
-    border-radius: 25px;
+    border-radius: 50px;
+    font-size: 25px;
+    margin-right: 30px;
 }
 
 .informazioni {
@@ -90,22 +93,57 @@
 }
 
 .box99 {
-    background-image: url("https://img.freepik.com/free-vector/white-abstract-background_23-2148810353.jpg?w=996&t=st=1714981942~exp=1714982542~hmac=190daba74b788a1cdbde936ee5a32f690385c5bdeeea32157cebd5925c2a4bb8");
+    background-image: url("https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
 
 .box5 {
-    background-image: url("https://img.freepik.com/free-vector/gradient-dynamic-blue-lines-background_23-2148995756.jpg?w=996&t=st=1714982900~exp=1714983500~hmac=9614cc0e60ed268fae30007b265a9a9b9b462bd39c020b07d083878e3a9fe3c9");
+    background-image: url("https://images.unsplash.com/photo-1548504769-900b70ed122e?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
 }
 
 .box4 {
-    background-image: url("https://img.freepik.com/free-vector/gradient-wavy-background_23-2149123391.jpg?w=996&t=st=1714983028~exp=1714983628~hmac=cbc42f238138b44cde8ccbee8b0bdcbe0ada0db70f07245d76ac21367ca44979");
+    background-image: url("https://images.pexels.com/photos/66869/green-leaf-natural-wallpaper-royalty-free-66869.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
 }
 
 .box2 {
     background-image: url("https://wallpapercave.com/wp/wp4390828.jpg");
+    background-size: cover;
 }
 
 body {
     margin: 0%;
     padding: 0%;
+}
+
+.informazioniCreatore {
+    font-size: 25px;
+}
+
+.immagine01 {
+    height: 350px;
+    border: 5px solid black;
+    margin-left: 500px;
+}
+
+P {
+    padding: 15px;
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+ol li {
+    font-size: 25px;
+    padding: 10px;
+    margin-right: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width:768px) {
+    div, footer{
+        width: 100%;
+    }
 }
