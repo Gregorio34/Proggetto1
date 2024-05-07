@@ -43,19 +43,17 @@
 }
 
 footer {
-    position: absolute;
-   color: tomato;
-   left: 0%;
-   align-items: center;
+    bottom: 0;
+    text-align: center;
    font-size: 35px;
    background-color: #030301;
-
 }
 
-.Social a {
-    color: white;
-    padding: 15px;
-    border-radius: 100%;
+.fa-brands {
+    background-color: white;
+    align-items: center;
+    font-size: 45px;
+    border-radius: 100px;
 }
 
 .modalita {
@@ -123,7 +121,7 @@ body {
 .immagine01 {
     height: 350px;
     border: 5px solid black;
-    margin-left: 500px;
+    text-align: center;
 }
 
 P {
@@ -142,8 +140,13 @@ a {
     text-decoration: none;
 }
 
-@media screen and (max-width:768px) {
-    div, footer{
+@media screen and (max-width: 1024px) {
+    div, footer, ConteniteoreFooter, Immagine01{
         width: 100%;
     }
+}
+
+.descrizionefooter {
+    color: white;
+    font-family: cursive;
 }
