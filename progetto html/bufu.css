@@ -43,17 +43,17 @@
 }
 
 footer {
-    bottom: 0;
     text-align: center;
    font-size: 35px;
    background-color: #030301;
+   padding: 25px;
 }
 
 .fa-brands {
     background-color: white;
     align-items: center;
     font-size: 45px;
-    border-radius: 100px;
+    margin: 15px;
 }
 
 .modalita {
@@ -82,6 +82,7 @@ footer {
     border-radius: 50px;
     font-size: 25px;
     margin-right: 30px;
+    color: #03256C;
 }
 
 .informazioni {
@@ -112,6 +113,9 @@ footer {
 body {
     margin: 0%;
     padding: 0%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .informazioniCreatore {
@@ -119,9 +123,11 @@ body {
 }
 
 .immagine01 {
-    height: 350px;
-    border: 5px solid black;
-    text-align: center;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: black solid 5px;
 }
 
 P {
@@ -149,4 +155,36 @@ a {
 .descrizionefooter {
     color: white;
     font-family: cursive;
+}
+
+.Tabella {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    gap: 1px;
+}
+
+.EventiFamosi {
+    font-family: cursive;
+    text-align: center;
+}
+
+.Container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item {
+    font-family: cursive;
+    font-size: 35px;
+    border: black solid 5px;
+}
+
+.FotoEvento {
+    border: black solid 5px;
+    background-size: cover;
+
 }
