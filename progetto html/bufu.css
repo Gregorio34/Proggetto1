@@ -157,3 +157,34 @@ a {
     color: white;
     font-family: cursive;
 }
+
+.EventiFamosi {
+    font-family: cursive;
+    text-align: center;
+}
+
+.EventiFamosi {
+    font-family: cursive;
+    text-align: center;
+}
+
+.Container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+}
+
+.item {
+    font-family: cursive;
+    font-size: 35px;
+    border: black solid 5px;
+}
+
+.FotoEvento {
+    border: black solid 5px;
+    background-size: cover;
+}
