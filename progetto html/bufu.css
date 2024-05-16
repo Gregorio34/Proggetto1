@@ -1,12 +1,18 @@
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
 .Eventi {
     font-family: cursive;
     text-align: center;
     color: #7A7D7D;
+    font-size: 35px;
 }
 
 .box3 {
     font-family: cursive;
-    font-size: 35px;
+    font-size: 50px;
     text-align: center;
     color: #072AC8;
 }
@@ -15,7 +21,9 @@
     font-family: cursive;
     text-align: center;
     color: #6148DD;
+    font-size: 50px;
 }
+
 .Marshmello {
     float: right;
     border: 5px solid black;
@@ -29,8 +37,9 @@
 .box {
     height: 250px;
     animation-name: MySlide;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-iteration-count: initial;
+    animation-play-state: running;
     margin-left: 34%;
 }
 
@@ -50,25 +59,28 @@ footer {
 
 .ConteniteoreFooter {
     align-items: center;
-    font-size: 45px;
+    padding: 50px;
+    font-size: 35px;
     margin: 50px;
 }
 
 .ConteniteoreFooter a {
-    padding: 25px;;
-    border-radius: 50px;
-    color: gray;
+    padding: 25px;
+    background-color: white;
+    border-radius: 100%;
+    margin: 5px;
 }
 
 .ConteniteoreFooter a:hover {
-    color: white;
     font-size: 50px;
+    border-radius: 100%;
 }
 
 .modalita {
     font-family: cursive;
     text-align: center;
-    color: #5B4200;
+    color: #5b4200;
+    font-size: 50px;
 }
 
 .box9 {
@@ -80,11 +92,13 @@ footer {
     display: flex;
     position: sticky;
     top: 0;
+    width: auto;
     background-image: url("sfondo\ navbar.jpg");
     justify-content: space-evenly;
     align-items: center;
     background-size: cover;
-    width: 100%;
+    padding: 20px;
+    overflow: auto; 
 }
 
 .flex-container a {
@@ -114,7 +128,7 @@ footer {
 }
 
 .box5 {
-    background-image: url("https://images.unsplash.com/photo-1548504769-900b70ed122e?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("https://img.freepik.com/foto-gratuito/linee-su-sfondo-di-carta-gialla_23-2147981599.jpg?t=st=1715863593~exp=1715867193~hmac=5279e22e49b696f5f3ae71fe937b63c1732623493958d65d567eb1d43d00b7a7&w=360");
     background-size: cover;
     margin: 0%;
     padding: 0%;
@@ -155,12 +169,13 @@ footer {
 }
 
 p {
-    padding: 15px;
     font-size: 25px;
     margin-right: 25px;
     margin-left: 25px;
     font-family: cursive;
     text-align: center;
+    word-spacing: 15px;
+    line-height: 50px;
 }
 
 p :hover {
@@ -170,12 +185,14 @@ p :hover {
 ol li {
     font-size: 25px;
     padding: 15px;
+    line-height: 50px;;
     margin: 15px
 }
 
 ul li {
     font-size: 25px;
     padding: 15px;
+    line-height: 50px;
     margin: 15px
 }
 
@@ -251,21 +268,24 @@ a {
     flex-direction: column;
 }
 
-.VideoFortnite {
+.Video {
     text-align: center;
-    padding: 35px;
+    padding: 15px;
+    overflow: auto;
 }
 
 .informazioniSulSito {
     color: #F6AE2D;
     text-align: center;
     font-family: cursive;
+    font-size: 50px;
 }
 
 .Ninja {
     color: #28536B;
     font-family: cursive;
     text-align: center;
+    font-size: 45px;
 }
 
 .Container2 {
@@ -284,7 +304,6 @@ a {
 .card2  {
     border: #030301 solid 5px;
     background-color: #98CE00;
-    
 }
 
 .Container3 {
@@ -309,6 +328,21 @@ a {
     font-family: cursive;
     text-align: center;
     color: #FF4242;
+    font-size: 50px;
+}
+
+.ImmagineErrore {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450;
+}
+
+.Errore2 {
+    text-align: center;
+    color: #5E3023;
+    font-family: cursive;
+    font-size: 50px;
 }
 
 @media (max-width: 1024px) {
