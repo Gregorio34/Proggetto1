@@ -6,7 +6,6 @@ h2 {
 .Eventi {
     font-family: cursive;
     text-align: center;
-    color: #7A7D7D;
     font-size: 35px;
 }
 
@@ -14,13 +13,11 @@ h2 {
     font-family: cursive;
     font-size: 50px;
     text-align: center;
-    color: #072AC8;
 }
 
 .ComeGiocare{
     font-family: cursive;
     text-align: center;
-    color: #6148DD;
     font-size: 50px;
 }
 
@@ -55,20 +52,21 @@ footer {
    margin-top: auto;
    text-align: center;
    width: 100%;
+   display: block;
 }
 
 .ConteniteoreFooter {
     align-items: center;
     padding: 50px;
     font-size: 35px;
-    margin: 50px;
+    margin: 25px;
 }
 
 .ConteniteoreFooter a {
     padding: 25px;
     background-color: white;
     border-radius: 100%;
-    margin: 5px;
+    margin: 10px;
 }
 
 .ConteniteoreFooter a:hover {
@@ -79,7 +77,6 @@ footer {
 .modalita {
     font-family: cursive;
     text-align: center;
-    color: #5b4200;
     font-size: 50px;
 }
 
@@ -111,6 +108,12 @@ footer {
     font-size: 25px;
     color: #03256C;
 }
+.descrizionefooter {
+    color: white;
+    font-family: cursive;
+    padding: 25px;
+    font-size: 35px;
+}
 
 .informazioni {
     font-family: "Poetsen One";
@@ -119,7 +122,6 @@ footer {
 }
 
 .SfondoCreatore {
-    background-image: url("https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     margin: 0%;
     padding: 0%;
     min-height: 100%;
@@ -128,8 +130,6 @@ footer {
 }
 
 .box5 {
-    background-image: url("https://img.freepik.com/foto-gratuito/linee-su-sfondo-di-carta-gialla_23-2147981599.jpg?t=st=1715863593~exp=1715867193~hmac=5279e22e49b696f5f3ae71fe937b63c1732623493958d65d567eb1d43d00b7a7&w=360");
-    background-size: cover;
     margin: 0%;
     padding: 0%;
     min-height: 100%;
@@ -138,8 +138,6 @@ footer {
 }
 
 .box4 {
-    background-image: url("https://img.freepik.com/vettori-gratuito/disegni-astratti-sfumati-di-colore-blu-sfumato_343694-2248.jpg?t=st=1715606655~exp=1715610255~hmac=6ebf779c3b33bdee05f88494a823b2fd874765572dbaad2ff888ae9d88ecc14b&w=1060");
-    background-size: cover;
     margin: 0%;
     padding: 0%;
     min-height: 100%;
@@ -148,8 +146,6 @@ footer {
 }
 
 .SfondoModalitaDiGioco {
-    background-image: url("https://wallpapercave.com/wp/wp4390828.jpg");
-    background-size: cover;
     margin: 0%;
     padding: 0%;
     min-height: 100%;
@@ -200,11 +196,6 @@ a {
     text-decoration: none;
 }
 
-.descrizionefooter {
-    color: white;
-    font-family: cursive;
-}
-
 .Container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -233,13 +224,12 @@ a {
 }
 
 .darkmode:hover{
-    background-color: black;
+    background-color: #030301;
 }
 
 
 .darkmode:active{
-    background-color: yellow;
-    box-shadow: 0px 5px #03256C;
+    box-shadow: 0px 5px;
     transform: translateY(4px);
 }
 
@@ -250,8 +240,6 @@ a {
 }
 
 .SfondoNinja {
-    background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    background-size: cover;
     margin: 0%;
     padding: 0%;
     min-height: 100%;
@@ -275,14 +263,12 @@ a {
 }
 
 .informazioniSulSito {
-    color: #F6AE2D;
     text-align: center;
     font-family: cursive;
     font-size: 50px;
 }
 
 .Ninja {
-    color: #28536B;
     font-family: cursive;
     text-align: center;
     font-size: 45px;
@@ -303,7 +289,6 @@ a {
 
 .card2  {
     border: #030301 solid 5px;
-    background-color: #98CE00;
 }
 
 .Container3 {
@@ -321,13 +306,11 @@ a {
 
 .card3  {
     border: #030301 solid 5px;
-    background-color: #DC6BAD;
 }
 
 .ComeMigliorare {
     font-family: cursive;
     text-align: center;
-    color: #FF4242;
     font-size: 50px;
 }
 
@@ -340,7 +323,6 @@ a {
 
 .Errore2 {
     text-align: center;
-    color: #5E3023;
     font-family: cursive;
     font-size: 50px;
 }
@@ -356,5 +338,58 @@ a {
 
     .Container3 {
         grid-template-columns: 1fr;
+    }
+}
+
+.color-red {
+    color: red;
+    background: linear-gradient(90deg, rgba(172,255,92,1) 4%, rgba(209,255,51,0.6111694677871149) 49%, rgba(0,212,255,1) 100%);
+}
+
+nav {
+    background-image: url("sfondo\ navbar.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li {
+    display: inline-flex;
+    margin: 0.3em 1em;
+    text-align: center;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 25px;
+    font-family: "Poetsen One";
+    padding: 5px;    
+}
+
+@media (max-width: 576px) {
+    nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    nav ul {
+        display: block;
+    }
+
+    nav ul:last-child {
+        width: 100%;
+        flex-basis: 100%;
+    }
+    nav ul li {
+        margin-bottom: 0;
+        width: 100%;
+        text-align: right;
+        padding: 0.5em;
     }
 }
